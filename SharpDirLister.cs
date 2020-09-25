@@ -217,10 +217,10 @@ namespace SharpDirLister
 
 		public static void Usage()
 		{
-            Console.WriteLine("Usage: " + AppDomain.CurrentDomain.FriendlyName + " target outputfolder\n" +
+            Console.WriteLine("Usage: SharpDirLister.exe target outputfolder\n" +
             "Examples:\n" +
-            "	" + AppDomain.CurrentDomain.FriendlyName + " c:\\path\\to\\directory c:\\outputfolder\n" +
-            "	" + AppDomain.CurrentDomain.FriendlyName + " \\\\path\\to\\share .\\\n" +
+            "SharpDirLister.exe c:\\path\\to\\directory c:\\outputfolder\n" +
+            "SharpDirLister.exe \\\\path\\to\\share c:\\outputfolder\n" +
             "Will output two files with the format MMddTHHmmss_listing.{.txt,.txt.gz} in the output folder.\n"+
             "Remember to clean up after yourself.\n");
             Environment.Exit(1); //Be careful if running without fork & run
